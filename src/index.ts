@@ -22,7 +22,7 @@ program
   .description("CLI backup tool with versioning")
   .version("1.0.0");
 
-// attach commands
+
 registerCommand(program);
 loginCommand(program);
 helpcommand(program)
